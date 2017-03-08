@@ -1,7 +1,7 @@
 {% set name = "spylon-kernel" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 {% set hashtype = "sha256" %}
-{% set hash = "ef8161662d48f1fb94b6f06475df0e3dfd5b6b89be4d2efe657bca817b3ad9d9" %}
+{% set hash = "aa875c6e78c5056643b3c7620acba7f527a4c1b652a1bd8ec8ceac5108ab6157" %}
 
 package:
   name: {{ name }}
@@ -26,8 +26,10 @@ requirements:
   run:
     - python
     - ipykernel
+    - jedi >=0.10
     - metakernel
     - spylon
+    - tornado
 
 test:
   imports:
