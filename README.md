@@ -1,7 +1,7 @@
 About spylon-kernel
 ===================
 
-Home: https://github.com/mariusvniekerk/spylon-kernel
+Home: https://github.com/maxpoint/spylon-kernel
 
 Package license: MIT
 
