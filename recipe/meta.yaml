@@ -13,7 +13,7 @@ source:
   {{ hashtype }}: {{ hash }}
 
 build:
-  number: 0
+  number: 1000
   script: python setup.py install --single-version-externally-managed --record=record.txt
   skip: True  # [py2k or py33 or py34]
 
